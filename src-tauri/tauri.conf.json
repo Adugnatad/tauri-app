@@ -6,7 +6,7 @@
     "distDir": "../dist"
   },
   "package": {
-    "productName": "tauri-app",
+    "productName": "tell",
     "version": "0.0.0"
   },
   "tauri": {
@@ -21,9 +21,9 @@
       {
         "fullscreen": false,
         "resizable": true,
-        "title": "tauri-app",
-        "width": 800,
-        "height": 600
+        "title": "tell",
+        "width": 500,
+        "height": 500
       }
     ],
     "security": {
