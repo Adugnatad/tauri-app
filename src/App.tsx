@@ -1,5 +1,6 @@
 import "./App.css";
 import Sidebar from "./components/sidebar";
+import Clock from "./components/clock";
 
 function App() {
   // async function greet() {
@@ -12,8 +13,9 @@ function App() {
   // }
 
   return (
-    <div>
+    <div className="flex flex-row justify-between">
       <Sidebar />
+      <Clock />
     </div>
   );
 }
